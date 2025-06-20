@@ -1,0 +1,51 @@
+.container{
+    background-color: #fff;
+    text-align: center;
+    padding: 96px 32px;
+    box-sizing: border-box;
+    width: 100%; /*전체 너비 사용함*/
+}
+
+.hero-title{
+    color: #212529;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 0px 0px 8px;
+    box-sizing: border-box;
+}
+
+.hero-subtitle{
+    color: #6c757d;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0px 16px;
+    box-sizing: border-box;
+}
+
+.left-button{
+    color: #fff;
+    font-size: 16px;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    text-align: center;
+    margin: 8px 2.5px 8px;
+    padding:6px 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.right-button{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin: 8px 2.5px 8px;
+    padding:6px 12px;
+    display: inline-block;
+    box-sizing: border-box;
+}

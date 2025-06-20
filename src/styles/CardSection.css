@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+.album {
+  padding: 48px;
+}
+
+.container-under {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex; /*가로 방향 정렬*/
+  flex-wrap: wrap; /*3개씩 -> 다음줄로 줄 바꿈*/
+  margin: 0 -15px;
+}
+
+.col {
+  width: 100%;
+  max-width: 33.3333%;
+  padding: 0 15px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}

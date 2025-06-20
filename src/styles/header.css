@@ -1,0 +1,51 @@
+.header{
+    background-color: #343a40;
+    padding: 8px 16px;
+}
+
+.header-bar {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 39.5px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-bar{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 16px 0 0;
+    padding: 5px 0;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.title-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.camera_icon {
+    margin: 0 8px 0 0 ;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.menu_icon{
+    width: 30px;
+    height: 30px;
+    background: none;
+    color: rgba(255, 255, 255, .5);
+}
+
+.menu-button {
+    padding: 4px 12px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
