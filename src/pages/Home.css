@@ -1,0 +1,54 @@
+.intro {
+  text-align: center;
+  padding: 100px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.btn1 {
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.btn2 {
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn1:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.btn2:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
