@@ -1,8 +1,15 @@
+import React from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Photo from "./pages/Photo";
+
 function App() {
 
   return (
     <>
-      화이팅! 
+      <Header />
+      <Home />
+      <Photo />
     </>
   )
 }
